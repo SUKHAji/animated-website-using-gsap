@@ -1,0 +1,100 @@
+* {
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.all-centre {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+nav {
+  top: 0;
+  position: absolute;
+  font-size: 1.5vw;
+  height: 10%;
+  width: 100%;
+  padding: 1vw;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.nav-text-1 img {
+  width: 40px;
+}
+
+.nav-text-1 {
+  gap: 1vw;
+}
+.nav-text-2 {
+  gap: 2vw;
+}
+.nav-text-3 {
+  gap: 1vw;
+}
+.nav-text-3 button {
+  border-radius: 10px;
+  color: black;
+  padding: 1vw;
+}
+.nav-text-3 button:hover {
+  cursor: pointer;
+  background-color: rgb(150, 148, 146);
+}
+
+.hero {
+  z-index: 999;
+  position: absolute;
+  font-size: 5vw;
+  gap: 1vw;
+  flex-direction: column;
+}
+
+.hero span {
+  padding: 3vw;
+  font-size: 4vw;
+  border-radius: 50px;
+  background-color: brown;
+}
+.images img {
+  position: absolute;
+}
+
+#img-3 {
+  border-radius: 20px;
+  width: 200px;
+  right: 50%;
+  bottom: 15%;
+}
+#img-4 {
+  border-radius: 20px;
+  width: 170px;
+  right: 10%;
+  top: 20%;
+}
+
+h5 {
+  position: absolute;
+  bottom: 4%;
+}
+
+.ggg {
+  gap: 2vw;
+}
